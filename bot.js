@@ -173,7 +173,7 @@ function respond() {
   }
   else if(request.text && botRegexTeam.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/spreadsheets/d/1iKki_iX3a1uWPP33Nt79w4CmuXsxRL_oYXEeTaAxpgM/edit#gid=0");
+    postMessage("https://docs.google.com/spreadsheets/d/1iKki_iX3a1uWPP33Nt79w4CmuXsxRL_oYXEeTaAxpgM/edit?usp=sharing");
     this.res.end();
   } 
   
