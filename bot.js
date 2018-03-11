@@ -173,7 +173,7 @@ function respond() {
   }
   else if(request.text && botRegexTeam.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/spreadsheets/d/1iKki_iX3a1uWPP33Nt79w4CmuXsxRL_oYXEeTaAxpgM/edit?usp=sharing");
+    postMessage("https://docs.google.com/spreadsheets/d/14Wh-AsCB5sW2mNGzygK7NwLyxhB7b-q1Cuj8sPC7XP0/edit?usp=sharing");
     this.res.end();
   } 
   else if(request.text && botRegexYoutube.test(request.text)) {
